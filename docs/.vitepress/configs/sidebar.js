@@ -1,11 +1,11 @@
 const { getPath } = require('./utils')
 const { getProjectSidebar } = require('./sidebar/project')
-const { getFrameworkSidebar } = require('./sidebar/framework');
-const { getToolSidebar } = require('./sidebar/tool');
-const { getBasicSidebar } = require('./sidebar/basic');
-const { getWeixinSidebar } = require('./sidebar/weixin');
-const { getNodeSidebar } = require('./sidebar/node');
-
+const { getFrameworkSidebar } = require('./sidebar/framework')
+const { getToolSidebar } = require('./sidebar/tool')
+const { getBasicSidebar } = require('./sidebar/basic')
+const { getWeixinSidebar } = require('./sidebar/weixin')
+const { getNodeSidebar } = require('./sidebar/node')
+const { getOtherlSidebar } = require('./sidebar/other')
 module.exports = {
   [getPath('/basic/')]: getBasicSidebar(),
   [getPath('/framework/')]: getFrameworkSidebar(),
@@ -13,6 +13,5 @@ module.exports = {
   [getPath('/node/')]: getNodeSidebar(),
   [getPath('/weixin/')]: getWeixinSidebar(),
   [getPath('/tool/')]: getToolSidebar(),
-  [getPath('/other/')]: 'auto',
+  [getPath('/other/')]: getOtherlSidebar(),
 }
-

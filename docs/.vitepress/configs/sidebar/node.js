@@ -1,10 +1,6 @@
 exports.getNodeSidebar = function () {
   return [
     {
-      text: 'index',
-      link: '/node/index',
-    },
-    {
       text: 'Egg',
       children: [
         {
