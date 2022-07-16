@@ -1,4 +1,4 @@
-exports.getBasicSidebar = function getBasicSidebar() {
+exports.getBasicSidebar = function () {
   return [
     {
       text: 'CSS',
@@ -18,15 +18,11 @@ exports.getBasicSidebar = function getBasicSidebar() {
       ],
     },
     {
-      text: '教程',
+      text: 'JsvaScript',
       children: [
         {
-          text: '教程1',
-          link: '/basic/button',
-        },
-        {
-          text: '教程2',
-          link: '/basic/modal',
+          text: '判断苹果手机类型',
+          link: '/basic/js/判断苹果手机类型',
         },
       ],
     },
