@@ -8,7 +8,7 @@ module.exports = {
   head: [['link', { rel: 'icon', type: 'image/svg+xml', href: '/logo.svg' }]],
   base: base,
   themeConfig: {
-    repo: 'SuYxh/vitepress-demo',
+    repo: 'SuYxh/x-docs',
     logo: '/logo.svg',
     docsDir: 'docs',
     docsBranch: 'master',
@@ -16,7 +16,7 @@ module.exports = {
     algolia: {
       appId: 'PPGAVKEK5G',
       apiKey: '0e1577e38c8b10771d19d8fe606b73c9',
-      indexName: 'vitepress-demo',
+      indexName: 'x-docs',
     },
 
     // nav
