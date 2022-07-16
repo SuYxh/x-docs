@@ -2,38 +2,39 @@ const { getPath } = require('./utils')
 
 module.exports = {
   [getPath('/api/')]: 'auto',
-  [getPath('/components/')]: getComponentsSidebar(),
+  [getPath('/framework/')]: getFrameworkSidebar(),
   [getPath('/basic/')]: getBasicSidebar()
 }
 
-function getComponentsSidebar() {
+
+function getFrameworkSidebar() {
   return [
     {
       text: '组件',
       children: [
         {
           text: 'Button 按钮',
-          link: '/components/button'
+          link: '/framework/button'
         },
         {
           text: 'Tabs 标签页',
-          link: '/components/tabs'
+          link: '/framework/tabs'
         },
         {
           text: 'Modal 对话框',
-          link: '/components/modal'
+          link: '/framework/modal'
         },
         {
           text: 'Tag 标签',
-          link: '/components/tag'
+          link: '/framework/tag'
         },
         {
           text: 'Vue 引用组件',
-          link: '/components/vue'
+          link: '/framework/vue'
         },
         {
           text: 'Vue Script',
-          link: '/components/vue-script'
+          link: '/framework/vue-script'
         }
       ]
     }
