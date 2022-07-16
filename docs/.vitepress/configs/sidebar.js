@@ -1,9 +1,11 @@
 const { getPath } = require('./utils')
 
 module.exports = {
-  [getPath('/project/')]: 'auto',
+  [getPath('/basic/')]: getBasicSidebar(),
   [getPath('/framework/')]: getFrameworkSidebar(),
-  [getPath('/basic/')]: getBasicSidebar()
+  [getPath('/project/')]: 'auto',
+  [getPath('/tool/')]: 'auto',
+  [getPath('/other/')]: 'auto',
 }
 
 

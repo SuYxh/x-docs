@@ -4,9 +4,11 @@ module.exports = [
   { text: '基础', link: '/basic/' },
   { text: '框架', link: '/framework/vue', activeMatch: getPath('^/framework/') },
   { text: '工程化', link: '/project/' },
-  {
-    text: '更新日志',
-    link:
-      'https://github.com/SuYxh/x-docss'
-  }
+  { text: '工具', link: '/tool/' },
+  { text: '其他', link: '/other/' },
+  // {
+  //   text: '更新日志',
+  //   link:
+  //     'https://github.com/SuYxh/x-docss'
+  // }
 ]
