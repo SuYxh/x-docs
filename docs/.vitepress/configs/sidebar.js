@@ -3,7 +3,7 @@ const { getPath } = require('./utils')
 module.exports = {
   [getPath('/api/')]: 'auto',
   [getPath('/components/')]: getComponentsSidebar(),
-  [getPath('/guide/')]: getGuideSidebar()
+  [getPath('/basic/')]: getBasicSidebar()
 }
 
 function getComponentsSidebar() {
@@ -40,18 +40,18 @@ function getComponentsSidebar() {
   ]
 }
 
-function getGuideSidebar() {
+function getBasicSidebar() {
   return [
     {
       text: '指南',
       children: [
         {
           text: '文档1',
-          link: '/guide/button'
+          link: '/basic/button'
         },
         {
           text: '文档2',
-          link: '/guide/modal'
+          link: '/basic/modal'
         }
       ]
     },
@@ -60,11 +60,11 @@ function getGuideSidebar() {
       children: [
         {
           text: '教程1',
-          link: '/guide/button'
+          link: '/basic/button'
         },
         {
           text: '教程2',
-          link: '/guide/modal'
+          link: '/basic/modal'
         }
       ]
     }

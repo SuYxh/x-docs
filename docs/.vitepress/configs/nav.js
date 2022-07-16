@@ -1,12 +1,12 @@
 const { getPath } = require('./utils')
 
 module.exports = [
-  { text: '文档', link: '/guide/' },
-  { text: '组件', link: '/components/button', activeMatch: getPath('^/components/') },
-  { text: 'API 参考', link: '/api/' },
+  { text: '基础', link: '/basic/' },
+  { text: '框架', link: '/components/button', activeMatch: getPath('^/components/') },
+  { text: '工程化', link: '/api/' },
   {
     text: '更新日志',
     link:
-      'https://github.com/SuYxh/vitepress-demo'
+      'https://github.com/SuYxh/x-docss'
   }
 ]
