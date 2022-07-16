@@ -2,7 +2,7 @@ const { getPath } = require('./utils')
 
 module.exports = [
   { text: '基础', link: '/basic/' },
-  { text: '框架', link: '/framework/vue', activeMatch: getPath('^/framework/') },
+  { text: '框架', link: '/framework/index', activeMatch: getPath('^/framework/') },
   { text: '工程化', link: '/project/' },
   { text: '工具', link: '/tool/' },
   { text: '其他', link: '/other/' },
