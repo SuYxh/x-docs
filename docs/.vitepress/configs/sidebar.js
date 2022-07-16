@@ -1,7 +1,7 @@
 const { getPath } = require('./utils')
 
 module.exports = {
-  [getPath('/api/')]: 'auto',
+  [getPath('/project/')]: 'auto',
   [getPath('/framework/')]: getFrameworkSidebar(),
   [getPath('/basic/')]: getBasicSidebar()
 }
