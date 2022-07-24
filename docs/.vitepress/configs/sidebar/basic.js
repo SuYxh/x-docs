@@ -24,6 +24,10 @@ exports.getBasicSidebar = function () {
           text: '判断苹果手机类型',
           link: '/basic/js/判断苹果手机类型',
         },
+        {
+          text: '手写Promise',
+          link: '/basic/js/手写Promise',
+        },
       ],
     },
   ]
