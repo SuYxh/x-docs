@@ -1,1 +1,0 @@
-import{o as t,c as e,a as r}from"./app.7e0da940.js";const a='{"title":"工程化","description":"","frontmatter":{},"relativePath":"project/index.md","lastUpdated":1657972343129}',d={},n=[r("h1",{id:"工程化"},"工程化",-1),r("p",null,"工程化的东西",-1)];d.render=function(r,a,d,o,i,p){return t(),e("div",null,n)};export default d;export{a as __pageData};

@@ -1,0 +1,1 @@
+import{o as t,c as e,a}from"./app.6a9dab50.js";const r='{"title":"其他","description":"","frontmatter":{},"relativePath":"other/index.md","lastUpdated":1658628727453}',d={},n=[a("h1",{id:"其他"},"其他",-1),a("p",null,"这里放点什么呢",-1)];d.render=function(a,r,d,o,i,l){return t(),e("div",null,n)};export default d;export{r as __pageData};
