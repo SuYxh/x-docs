@@ -28,6 +28,14 @@ exports.getBasicSidebar = function () {
           text: '手写Promise',
           link: '/basic/js/手写Promise',
         },
+        {
+          text: '常用的数组方法',
+          link: '/basic/js/常用的数组方法',
+        },
+        {
+          text: 'reduce使用实例',
+          link: '/basic/js/reduce使用实例',
+        },
       ],
     },
   ]
