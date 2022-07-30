@@ -20,6 +20,10 @@ exports.getFrameworkSidebar = function () {
           text: '最详细的 Vue3 + TypeScript 使用教程',
           link: '/framework/vue-article/最详细的 Vue3 + TypeScript 使用教程',
         },
+        {
+          text: 'Vue项目性能优化实战总结',
+          link: '/framework/vue-article/Vue项目性能优化实战总结',
+        },
       ],
     },
   ]
