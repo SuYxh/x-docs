@@ -19,6 +19,10 @@ exports.getNodeSidebar = function () {
       ],
     },
     {
+      text: '前端项目部署记',
+      link: '/node/前端项目部署记',
+    },
+    {
       text: 'pm2自动部署node项目',
       link: '/node/pm2自动部署node项目',
     },
