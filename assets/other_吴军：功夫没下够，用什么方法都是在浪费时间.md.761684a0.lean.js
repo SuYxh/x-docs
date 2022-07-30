@@ -1,0 +1,1 @@
+import{o as p,c as t,e as o}from"./app.4c9f31c1.js";const n='{"title":"","description":"","frontmatter":{},"relativePath":"other/吴军：功夫没下够，用什么方法都是在浪费时间.md","lastUpdated":1659186875254}',r={},s=[o('',168)];r.render=function(o,n,r,g,a,e){return p(),t("div",null,s)};export default r;export{n as __pageData};

@@ -1,0 +1,1 @@
+import{o as n,c as s,e as a}from"./app.4c9f31c1.js";const p='{"title":"判断苹果手机类型","description":"","frontmatter":{},"relativePath":"basic/js/判断苹果手机类型.md","lastUpdated":1659186875254}',t={},o=[a('',2)];t.render=function(a,p,t,e,c,u){return n(),s("div",null,o)};export default t;export{p as __pageData};
