@@ -1,1 +1,0 @@
-import{o as t,c as e,a}from"./app.4c9f31c1.js";const r='{"title":"前端基础内容","description":"","frontmatter":{},"relativePath":"basic/index.md","lastUpdated":1659186875254}',i={},n=[a("h1",{id:"前端基础内容"},"前端基础内容",-1),a("p",null,"万层高楼平地起！",-1)];i.render=function(a,r,i,d,o,l){return t(),e("div",null,n)};export default i;export{r as __pageData};

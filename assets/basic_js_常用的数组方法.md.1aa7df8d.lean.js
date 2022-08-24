@@ -1,0 +1,1 @@
+import{o as A,c as p,e}from"./app.c30441d1.js";const a='{"title":"","description":"","frontmatter":{},"relativePath":"basic/js/常用的数组方法.md","lastUpdated":1661330957043}',g={},i=[e('',100)];g.render=function(e,a,g,r,s,n){return A(),p("div",null,i)};export default g;export{a as __pageData};
