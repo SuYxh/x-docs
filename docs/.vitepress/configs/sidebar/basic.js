@@ -36,6 +36,10 @@ exports.getBasicSidebar = function () {
           text: 'reduce使用实例',
           link: '/basic/js/reduce使用实例',
         },
+        {
+          text: 'javaScript 循环遍历大全',
+          link: '/basic/js/javaScript 循环遍历大全',
+        },
       ],
     },
   ]
