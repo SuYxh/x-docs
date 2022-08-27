@@ -1,1 +1,0 @@
-import{o as n,c as s,e as a}from"./app.c30441d1.js";const p='{"title":"4 个JavaScript 中 array.reduce() 数组方法的使用实例","description":"","frontmatter":{},"relativePath":"basic/js/reduce使用实例.md","lastUpdated":1661330957043}',t={},o=[a('',77)];t.render=function(a,p,t,c,e,u){return n(),s("div",null,o)};export default t;export{p as __pageData};
